@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     PAGE TITLE + SEO  →  edit the three lines below
+     ============================================================ -->
+<title>Product Name — Brand</title>
+<meta name="description" content="One sentence of search-result copy goes here, about 150 characters, describing the product plainly.">
+<meta name="theme-color" content="#FBFAF8">
+
+<link rel="preload" href="assets/InstrumentSerif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/Inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-head" id="top">
+  <div class="wrap head-inner">
+    <a class="wordmark" href="#top">Brand</a>
+    <nav class="head-nav">
+      <a href="#details">Details</a>
+      <!-- BUY LINK — replace "#" with your checkout URL -->
+      <a class="head-buy" href="#">Buy <span class="rule-v"></span> <span data-price>$00.00</span></a>
+    </nav>
+  </div>
+</header>
+
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+  <div class="wrap hero-grid">
+
+    <div class="hero-copy reveal">
+      <p class="label">Edition 01 <span class="dot"></span> In stock</p>
+
+      <!-- PRODUCT NAME -->
+      <h1 class="display">Product<br><em>Name</em></h1>
+
+      <!-- POSITIONING LINE — one or two sentences, no more -->
+      <p class="lede">A single line of positioning copy sits here. It says what the
+        product is and who it is for, and then it stops.</p>
+
+      <div class="hero-actions">
+        <!-- BUY LINK — replace "#" with your checkout URL -->
+        <a class="btn" href="#">Buy now <span data-price>$00.00</span></a>
+        <a class="btn-ghost" href="#details">Read the details</a>
+      </div>
+    </div>
+
+    <div class="hero-media reveal">
+      <!-- PRODUCT IMAGE — swap this whole block for:
+           <img src="assets/product-01.jpg" alt="..."> -->
+      <figure class="plate plate-tall">
+        <span class="plate-mark"></span>
+        <figcaption>Product image <span class="sep">/</span> 1400 × 1750</figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================================
+     PRODUCT DETAILS — the heart of the page
+     ============================================================ -->
+<section class="details" id="details">
+  <div class="wrap">
+
+    <div class="sec-head reveal">
+      <p class="label">02 <span class="sep">/</span> Product details</p>
+      <h2 class="h2">Everything worth knowing,<br>and nothing else.</h2>
+    </div>
+
+    <div class="details-grid">
+
+      <!-- LEFT: gallery -->
+      <div class="details-media reveal">
+        <figure class="plate plate-sq">
+          <span class="plate-mark"></span>
+          <figcaption>Detail shot <span class="sep">/</span> 1400 × 1750</figcaption>
+        </figure>
+        <div class="thumb-row">
+          <figure class="plate plate-thumb"><span class="plate-mark"></span></figure>
+          <figure class="plate plate-thumb"><span class="plate-mark"></span></figure>
+          <figure class="plate plate-thumb"><span class="plate-mark"></span></figure>
+        </div>
+      </div>
+
+      <!-- RIGHT: copy, specs, price, buy -->
+      <div class="details-copy reveal">
+
+        <!-- DESCRIPTION — 2 short paragraphs is the sweet spot -->
+        <p class="body-lg">Two short paragraphs of description live here. The first
+          one earns attention: it describes the thing in plain words and gives the
+          reader the one reason they came looking.</p>
+        <p class="body">The second paragraph carries the benefit — what changes for
+          the person once they own it. Keep it concrete, keep it under sixty words,
+          and let the white space do the rest of the work.</p>
+
+        <!-- THREE BENEFIT LINES -->
+        <ul class="benefits">
+          <li><span class="idx">01</span> First benefit, stated in a handful of words</li>
+          <li><span class="idx">02</span> Second benefit, same length, same rhythm</li>
+          <li><span class="idx">03</span> Third benefit, and then stop at three</li>
+        </ul>
+
+        <!-- SPEC TABLE — add or remove rows freely -->
+        <dl class="specs">
+          <div><dt>Material</dt><dd>Value</dd></div>
+          <div><dt>Dimensions</dt><dd>Value</dd></div>
+          <div><dt>Weight</dt><dd>Value</dd></div>
+          <div><dt>Ships</dt><dd>Value</dd></div>
+        </dl>
+
+        <!-- PRICE + BUY -->
+        <div class="buybox">
+          <div class="price-row">
+            <span class="price" data-price>$00.00</span>
+            <span class="price-note">Price note — tax, shipping, or currency</span>
+          </div>
+          <!-- BUY LINK — replace "#" with your checkout URL -->
+          <a class="btn btn-lg" href="#">Buy now</a>
+          <p class="pay-note">Payment methods note goes on this line.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     CLOSING BAR
+     ============================================================ -->
+<section class="closer">
+  <div class="wrap closer-inner reveal">
+    <h2 class="display display-sm">One product.<br><em>One decision.</em></h2>
+    <!-- BUY LINK — replace "#" with your checkout URL -->
+    <a class="btn btn-lg" href="#">Buy now <span data-price>$00.00</span></a>
+  </div>
+</section>
+
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <a class="wordmark" href="#top">Brand</a>
+    <nav class="foot-nav">
+      <a href="#">Contact</a>
+      <a href="#">Shipping &amp; returns</a>
+      <a href="#">Terms</a>
+    </nav>
+    <p class="foot-copy">© <span id="yr">2026</span> Brand. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
